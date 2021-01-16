@@ -1,4 +1,4 @@
-# MNIST-CIFAR10-Autoencoder-PCA-GridSearch
+# CIFAR10-Autoencoder-PCA-GridSearch
 Investigating various techniques to enhance image  classification
 
 # Introduction:
@@ -92,8 +92,8 @@ data, but the precision increased which is an advantage for the augmented data.
 # Conclusions & Lessons Learned
 Increasing the dataset samples doesn’t always lead to accuracy improvement, as noticed in
 CIFAR10, but the precision increased by 3%. The PCA isn’t the best option when it comes to
-the accuracy of classifying pictures in CIFAR10. However, it takes less time to train and
-achieves competitor accuracy with MNIST, because it works better with the lower
-dimensions. The feature extraction was able to predict the test set with slightly lower
+the accuracy of classifying pictures in CIFAR10. However, it takes less time to train,
+because it works better with the lower dimensions.
+The feature extraction was able to predict the test set with slightly lower
 efficiency but achieved the fastest time since it can work with only 10% of the data. The
 hyperparameters selection would be better to have different variation based on the dataset.
